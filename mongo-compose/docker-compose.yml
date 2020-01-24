@@ -16,6 +16,8 @@ services:
       - mynet
     volumes: 
       - myvol:/myvol
+    ports:
+      - "8080:80"
     
 networks:
   mynet:

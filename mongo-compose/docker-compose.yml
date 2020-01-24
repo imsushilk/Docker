@@ -20,4 +20,4 @@ networks:
     driver: bridge
     
 volumes:
-  myvol
+  myvol:
